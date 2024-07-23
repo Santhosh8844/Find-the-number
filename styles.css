@@ -1,0 +1,65 @@
+html {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #939393, #1e1d1d);
+  height: 100%;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 50px auto;
+  background: #cacaca;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #1e1e1e;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.input-range, .form {
+  margin-bottom: 20px;
+}
+
+.input-range input[type="number"], .form input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #8a5868;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+input[type="submit"], button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #515151;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #565656;
+}
+
+.resultParas p {
+  font-size: 1.2em;
+}
+
+.lastResult {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
